@@ -1,0 +1,1254 @@
+{
+  "tcm/tc_synth_000.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医院处方笺\n姓名：赵六　性别：女　年龄：27岁　日期：2025年5月17日\n科室：中医内科\nRp:\n1. 黄芪 15g\n2. 当归 10g\n3. 白术 12g\n4. 茯苓 15g\n5. 甘草 6g\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "XX中医院处方笺",
+      "department": "中医内科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "27",
+      "date": "2025年5月17日",
+      "prescription_items": [
+        "黄芪 15g",
+        "当归 10g",
+        "白术 12g",
+        "茯苓 15g",
+        "甘草 6g"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_001.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX市中医院处方笺\n姓名：李四　性别：男　年龄：41岁　日期：2025年2月16日\n科室：针灸推拿科\nRp:\n1. 川芎 10g\n2. 丹参 15g\n3. 红花 6g\n4. 桃仁 10g\n5. 赤芍 12g\n用法：水煎服，分两次温服",
+    "fields": {
+      "hospital": "XX市中医院处方笺",
+      "department": "针灸推拿科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "41",
+      "date": "2025年2月16日",
+      "prescription_items": [
+        "川芎 10g",
+        "丹参 15g",
+        "红花 6g",
+        "桃仁 10g",
+        "赤芍 12g"
+      ],
+      "usage": "水煎服，分两次温服"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_002.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX区中医门诊处方\n姓名：张三　性别：男　年龄：30岁　日期：2025年6月27日\n科室：中医外科\nRp:\n1. 金银花 15g\n2. 连翘 12g\n3. 蒲公英 20g\n4. 紫花地丁 15g\n用法：水煎服，日一剂，忌辛辣",
+    "fields": {
+      "hospital": "XX区中医门诊处方",
+      "department": "中医外科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "30",
+      "date": "2025年6月27日",
+      "prescription_items": [
+        "金银花 15g",
+        "连翘 12g",
+        "蒲公英 20g",
+        "紫花地丁 15g"
+      ],
+      "usage": "水煎服，日一剂，忌辛辣"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_003.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "传统中药处方\n姓名：李四　性别：男　年龄：48岁　日期：2025年10月16日\n科室：内科\nRp:\n1. 人参 10g\n2. 白术 15g\n3. 茯苓 12g\n4. 山药 20g\n5. 薏苡仁 15g\n用法：水煎服，早晚各一次",
+    "fields": {
+      "hospital": "传统中药处方",
+      "department": "内科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "48",
+      "date": "2025年10月16日",
+      "prescription_items": [
+        "人参 10g",
+        "白术 15g",
+        "茯苓 12g",
+        "山药 20g",
+        "薏苡仁 15g"
+      ],
+      "usage": "水煎服，早晚各一次"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_004.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医诊所处方\n姓名：李四　性别：女　年龄：31岁　日期：2025年12月13日\n科室：妇科\nRp:\n1. 当归 12g\n2. 白芍 10g\n3. 熟地黄 15g\n4. 川芎 8g\n用法：水煎服，经后服用",
+    "fields": {
+      "hospital": "XX中医诊所处方",
+      "department": "妇科",
+      "patient_name": "李四",
+      "gender": "女",
+      "age": "31",
+      "date": "2025年12月13日",
+      "prescription_items": [
+        "当归 12g",
+        "白芍 10g",
+        "熟地黄 15g",
+        "川芎 8g"
+      ],
+      "usage": "水煎服，经后服用"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_005.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "社区卫生中心处方笺\n姓名：陈七　性别：女　年龄：72岁　日期：2025年6月26日\n科室：全科\nRp:\n1. 柴胡 10g\n2. 黄芩 10g\n3. 半夏 9g\n4. 生姜 3片\n5. 大枣 3枚\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "社区卫生中心处方笺",
+      "department": "全科",
+      "patient_name": "陈七",
+      "gender": "女",
+      "age": "72",
+      "date": "2025年6月26日",
+      "prescription_items": [
+        "柴胡 10g",
+        "黄芩 10g",
+        "半夏 9g",
+        "生姜 3片",
+        "大枣 3枚"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_006.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医院处方笺\n姓名：陈七　性别：男　年龄：56岁　日期：2025年5月2日\n科室：中医内科\nRp:\n1. 黄芪 15g\n2. 当归 10g\n3. 白术 12g\n4. 茯苓 15g\n5. 甘草 6g\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "XX中医院处方笺",
+      "department": "中医内科",
+      "patient_name": "陈七",
+      "gender": "男",
+      "age": "56",
+      "date": "2025年5月2日",
+      "prescription_items": [
+        "黄芪 15g",
+        "当归 10g",
+        "白术 12g",
+        "茯苓 15g",
+        "甘草 6g"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_007.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX市中医院处方笺\n姓名：王五　性别：男　年龄：50岁　日期：2025年11月2日\n科室：针灸推拿科\nRp:\n1. 川芎 10g\n2. 丹参 15g\n3. 红花 6g\n4. 桃仁 10g\n5. 赤芍 12g\n用法：水煎服，分两次温服",
+    "fields": {
+      "hospital": "XX市中医院处方笺",
+      "department": "针灸推拿科",
+      "patient_name": "王五",
+      "gender": "男",
+      "age": "50",
+      "date": "2025年11月2日",
+      "prescription_items": [
+        "川芎 10g",
+        "丹参 15g",
+        "红花 6g",
+        "桃仁 10g",
+        "赤芍 12g"
+      ],
+      "usage": "水煎服，分两次温服"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_008.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX区中医门诊处方\n姓名：李四　性别：女　年龄：49岁　日期：2025年3月7日\n科室：中医外科\nRp:\n1. 金银花 15g\n2. 连翘 12g\n3. 蒲公英 20g\n4. 紫花地丁 15g\n用法：水煎服，日一剂，忌辛辣",
+    "fields": {
+      "hospital": "XX区中医门诊处方",
+      "department": "中医外科",
+      "patient_name": "李四",
+      "gender": "女",
+      "age": "49",
+      "date": "2025年3月7日",
+      "prescription_items": [
+        "金银花 15g",
+        "连翘 12g",
+        "蒲公英 20g",
+        "紫花地丁 15g"
+      ],
+      "usage": "水煎服，日一剂，忌辛辣"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_009.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "传统中药处方\n姓名：赵六　性别：女　年龄：42岁　日期：2025年3月6日\n科室：内科\nRp:\n1. 人参 10g\n2. 白术 15g\n3. 茯苓 12g\n4. 山药 20g\n5. 薏苡仁 15g\n用法：水煎服，早晚各一次",
+    "fields": {
+      "hospital": "传统中药处方",
+      "department": "内科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "42",
+      "date": "2025年3月6日",
+      "prescription_items": [
+        "人参 10g",
+        "白术 15g",
+        "茯苓 12g",
+        "山药 20g",
+        "薏苡仁 15g"
+      ],
+      "usage": "水煎服，早晚各一次"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_010.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医诊所处方\n姓名：陈七　性别：男　年龄：52岁　日期：2025年8月19日\n科室：妇科\nRp:\n1. 当归 12g\n2. 白芍 10g\n3. 熟地黄 15g\n4. 川芎 8g\n用法：水煎服，经后服用",
+    "fields": {
+      "hospital": "XX中医诊所处方",
+      "department": "妇科",
+      "patient_name": "陈七",
+      "gender": "男",
+      "age": "52",
+      "date": "2025年8月19日",
+      "prescription_items": [
+        "当归 12g",
+        "白芍 10g",
+        "熟地黄 15g",
+        "川芎 8g"
+      ],
+      "usage": "水煎服，经后服用"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_011.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "社区卫生中心处方笺\n姓名：赵六　性别：女　年龄：53岁　日期：2025年9月28日\n科室：全科\nRp:\n1. 柴胡 10g\n2. 黄芩 10g\n3. 半夏 9g\n4. 生姜 3片\n5. 大枣 3枚\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "社区卫生中心处方笺",
+      "department": "全科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "53",
+      "date": "2025年9月28日",
+      "prescription_items": [
+        "柴胡 10g",
+        "黄芩 10g",
+        "半夏 9g",
+        "生姜 3片",
+        "大枣 3枚"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_012.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医院处方笺\n姓名：赵六　性别：女　年龄：67岁　日期：2025年9月22日\n科室：中医内科\nRp:\n1. 黄芪 15g\n2. 当归 10g\n3. 白术 12g\n4. 茯苓 15g\n5. 甘草 6g\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "XX中医院处方笺",
+      "department": "中医内科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "67",
+      "date": "2025年9月22日",
+      "prescription_items": [
+        "黄芪 15g",
+        "当归 10g",
+        "白术 12g",
+        "茯苓 15g",
+        "甘草 6g"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_013.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX市中医院处方笺\n姓名：王五　性别：女　年龄：68岁　日期：2025年11月26日\n科室：针灸推拿科\nRp:\n1. 川芎 10g\n2. 丹参 15g\n3. 红花 6g\n4. 桃仁 10g\n5. 赤芍 12g\n用法：水煎服，分两次温服",
+    "fields": {
+      "hospital": "XX市中医院处方笺",
+      "department": "针灸推拿科",
+      "patient_name": "王五",
+      "gender": "女",
+      "age": "68",
+      "date": "2025年11月26日",
+      "prescription_items": [
+        "川芎 10g",
+        "丹参 15g",
+        "红花 6g",
+        "桃仁 10g",
+        "赤芍 12g"
+      ],
+      "usage": "水煎服，分两次温服"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_014.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX区中医门诊处方\n姓名：张三　性别：男　年龄：42岁　日期：2025年12月9日\n科室：中医外科\nRp:\n1. 金银花 15g\n2. 连翘 12g\n3. 蒲公英 20g\n4. 紫花地丁 15g\n用法：水煎服，日一剂，忌辛辣",
+    "fields": {
+      "hospital": "XX区中医门诊处方",
+      "department": "中医外科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "42",
+      "date": "2025年12月9日",
+      "prescription_items": [
+        "金银花 15g",
+        "连翘 12g",
+        "蒲公英 20g",
+        "紫花地丁 15g"
+      ],
+      "usage": "水煎服，日一剂，忌辛辣"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_015.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "传统中药处方\n姓名：李四　性别：男　年龄：58岁　日期：2025年12月2日\n科室：内科\nRp:\n1. 人参 10g\n2. 白术 15g\n3. 茯苓 12g\n4. 山药 20g\n5. 薏苡仁 15g\n用法：水煎服，早晚各一次",
+    "fields": {
+      "hospital": "传统中药处方",
+      "department": "内科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "58",
+      "date": "2025年12月2日",
+      "prescription_items": [
+        "人参 10g",
+        "白术 15g",
+        "茯苓 12g",
+        "山药 20g",
+        "薏苡仁 15g"
+      ],
+      "usage": "水煎服，早晚各一次"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_016.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医诊所处方\n姓名：王五　性别：女　年龄：55岁　日期：2025年5月14日\n科室：妇科\nRp:\n1. 当归 12g\n2. 白芍 10g\n3. 熟地黄 15g\n4. 川芎 8g\n用法：水煎服，经后服用",
+    "fields": {
+      "hospital": "XX中医诊所处方",
+      "department": "妇科",
+      "patient_name": "王五",
+      "gender": "女",
+      "age": "55",
+      "date": "2025年5月14日",
+      "prescription_items": [
+        "当归 12g",
+        "白芍 10g",
+        "熟地黄 15g",
+        "川芎 8g"
+      ],
+      "usage": "水煎服，经后服用"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_017.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "社区卫生中心处方笺\n姓名：陈七　性别：女　年龄：44岁　日期：2025年6月10日\n科室：全科\nRp:\n1. 柴胡 10g\n2. 黄芩 10g\n3. 半夏 9g\n4. 生姜 3片\n5. 大枣 3枚\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "社区卫生中心处方笺",
+      "department": "全科",
+      "patient_name": "陈七",
+      "gender": "女",
+      "age": "44",
+      "date": "2025年6月10日",
+      "prescription_items": [
+        "柴胡 10g",
+        "黄芩 10g",
+        "半夏 9g",
+        "生姜 3片",
+        "大枣 3枚"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_018.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医院处方笺\n姓名：李四　性别：男　年龄：67岁　日期：2025年8月11日\n科室：中医内科\nRp:\n1. 黄芪 15g\n2. 当归 10g\n3. 白术 12g\n4. 茯苓 15g\n5. 甘草 6g\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "XX中医院处方笺",
+      "department": "中医内科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "67",
+      "date": "2025年8月11日",
+      "prescription_items": [
+        "黄芪 15g",
+        "当归 10g",
+        "白术 12g",
+        "茯苓 15g",
+        "甘草 6g"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_019.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX市中医院处方笺\n姓名：刘八　性别：男　年龄：75岁　日期：2025年9月4日\n科室：针灸推拿科\nRp:\n1. 川芎 10g\n2. 丹参 15g\n3. 红花 6g\n4. 桃仁 10g\n5. 赤芍 12g\n用法：水煎服，分两次温服",
+    "fields": {
+      "hospital": "XX市中医院处方笺",
+      "department": "针灸推拿科",
+      "patient_name": "刘八",
+      "gender": "男",
+      "age": "75",
+      "date": "2025年9月4日",
+      "prescription_items": [
+        "川芎 10g",
+        "丹参 15g",
+        "红花 6g",
+        "桃仁 10g",
+        "赤芍 12g"
+      ],
+      "usage": "水煎服，分两次温服"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_020.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX区中医门诊处方\n姓名：刘八　性别：男　年龄：41岁　日期：2025年11月21日\n科室：中医外科\nRp:\n1. 金银花 15g\n2. 连翘 12g\n3. 蒲公英 20g\n4. 紫花地丁 15g\n用法：水煎服，日一剂，忌辛辣",
+    "fields": {
+      "hospital": "XX区中医门诊处方",
+      "department": "中医外科",
+      "patient_name": "刘八",
+      "gender": "男",
+      "age": "41",
+      "date": "2025年11月21日",
+      "prescription_items": [
+        "金银花 15g",
+        "连翘 12g",
+        "蒲公英 20g",
+        "紫花地丁 15g"
+      ],
+      "usage": "水煎服，日一剂，忌辛辣"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_021.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "传统中药处方\n姓名：李四　性别：女　年龄：69岁　日期：2025年7月21日\n科室：内科\nRp:\n1. 人参 10g\n2. 白术 15g\n3. 茯苓 12g\n4. 山药 20g\n5. 薏苡仁 15g\n用法：水煎服，早晚各一次",
+    "fields": {
+      "hospital": "传统中药处方",
+      "department": "内科",
+      "patient_name": "李四",
+      "gender": "女",
+      "age": "69",
+      "date": "2025年7月21日",
+      "prescription_items": [
+        "人参 10g",
+        "白术 15g",
+        "茯苓 12g",
+        "山药 20g",
+        "薏苡仁 15g"
+      ],
+      "usage": "水煎服，早晚各一次"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_022.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医诊所处方\n姓名：李四　性别：男　年龄：26岁　日期：2025年10月15日\n科室：妇科\nRp:\n1. 当归 12g\n2. 白芍 10g\n3. 熟地黄 15g\n4. 川芎 8g\n用法：水煎服，经后服用",
+    "fields": {
+      "hospital": "XX中医诊所处方",
+      "department": "妇科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "26",
+      "date": "2025年10月15日",
+      "prescription_items": [
+        "当归 12g",
+        "白芍 10g",
+        "熟地黄 15g",
+        "川芎 8g"
+      ],
+      "usage": "水煎服，经后服用"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_023.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "社区卫生中心处方笺\n姓名：王五　性别：男　年龄：26岁　日期：2025年10月10日\n科室：全科\nRp:\n1. 柴胡 10g\n2. 黄芩 10g\n3. 半夏 9g\n4. 生姜 3片\n5. 大枣 3枚\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "社区卫生中心处方笺",
+      "department": "全科",
+      "patient_name": "王五",
+      "gender": "男",
+      "age": "26",
+      "date": "2025年10月10日",
+      "prescription_items": [
+        "柴胡 10g",
+        "黄芩 10g",
+        "半夏 9g",
+        "生姜 3片",
+        "大枣 3枚"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_024.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医院处方笺\n姓名：刘八　性别：女　年龄：62岁　日期：2025年3月7日\n科室：中医内科\nRp:\n1. 黄芪 15g\n2. 当归 10g\n3. 白术 12g\n4. 茯苓 15g\n5. 甘草 6g\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "XX中医院处方笺",
+      "department": "中医内科",
+      "patient_name": "刘八",
+      "gender": "女",
+      "age": "62",
+      "date": "2025年3月7日",
+      "prescription_items": [
+        "黄芪 15g",
+        "当归 10g",
+        "白术 12g",
+        "茯苓 15g",
+        "甘草 6g"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_025.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX市中医院处方笺\n姓名：赵六　性别：男　年龄：38岁　日期：2025年5月21日\n科室：针灸推拿科\nRp:\n1. 川芎 10g\n2. 丹参 15g\n3. 红花 6g\n4. 桃仁 10g\n5. 赤芍 12g\n用法：水煎服，分两次温服",
+    "fields": {
+      "hospital": "XX市中医院处方笺",
+      "department": "针灸推拿科",
+      "patient_name": "赵六",
+      "gender": "男",
+      "age": "38",
+      "date": "2025年5月21日",
+      "prescription_items": [
+        "川芎 10g",
+        "丹参 15g",
+        "红花 6g",
+        "桃仁 10g",
+        "赤芍 12g"
+      ],
+      "usage": "水煎服，分两次温服"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_026.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX区中医门诊处方\n姓名：刘八　性别：男　年龄：67岁　日期：2025年4月14日\n科室：中医外科\nRp:\n1. 金银花 15g\n2. 连翘 12g\n3. 蒲公英 20g\n4. 紫花地丁 15g\n用法：水煎服，日一剂，忌辛辣",
+    "fields": {
+      "hospital": "XX区中医门诊处方",
+      "department": "中医外科",
+      "patient_name": "刘八",
+      "gender": "男",
+      "age": "67",
+      "date": "2025年4月14日",
+      "prescription_items": [
+        "金银花 15g",
+        "连翘 12g",
+        "蒲公英 20g",
+        "紫花地丁 15g"
+      ],
+      "usage": "水煎服，日一剂，忌辛辣"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_027.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "传统中药处方\n姓名：刘八　性别：女　年龄：69岁　日期：2025年5月10日\n科室：内科\nRp:\n1. 人参 10g\n2. 白术 15g\n3. 茯苓 12g\n4. 山药 20g\n5. 薏苡仁 15g\n用法：水煎服，早晚各一次",
+    "fields": {
+      "hospital": "传统中药处方",
+      "department": "内科",
+      "patient_name": "刘八",
+      "gender": "女",
+      "age": "69",
+      "date": "2025年5月10日",
+      "prescription_items": [
+        "人参 10g",
+        "白术 15g",
+        "茯苓 12g",
+        "山药 20g",
+        "薏苡仁 15g"
+      ],
+      "usage": "水煎服，早晚各一次"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_028.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "XX中医诊所处方\n姓名：张三　性别：男　年龄：59岁　日期：2025年10月23日\n科室：妇科\nRp:\n1. 当归 12g\n2. 白芍 10g\n3. 熟地黄 15g\n4. 川芎 8g\n用法：水煎服，经后服用",
+    "fields": {
+      "hospital": "XX中医诊所处方",
+      "department": "妇科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "59",
+      "date": "2025年10月23日",
+      "prescription_items": [
+        "当归 12g",
+        "白芍 10g",
+        "熟地黄 15g",
+        "川芎 8g"
+      ],
+      "usage": "水煎服，经后服用"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_synth_029.png": {
+    "category": "tcm",
+    "source": "synthetic",
+    "text_full": "社区卫生中心处方笺\n姓名：陈七　性别：男　年龄：47岁　日期：2025年10月28日\n科室：全科\nRp:\n1. 柴胡 10g\n2. 黄芩 10g\n3. 半夏 9g\n4. 生姜 3片\n5. 大枣 3枚\n用法：水煎服，日一剂",
+    "fields": {
+      "hospital": "社区卫生中心处方笺",
+      "department": "全科",
+      "patient_name": "陈七",
+      "gender": "男",
+      "age": "47",
+      "date": "2025年10月28日",
+      "prescription_items": [
+        "柴胡 10g",
+        "黄芩 10g",
+        "半夏 9g",
+        "生姜 3片",
+        "大枣 3枚"
+      ],
+      "usage": "水煎服，日一剂"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_000.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX市人民医院处方笺\n姓名：赵六　性别：男　年龄：50岁　日期：2025年6月3日\n科室：内科\nRp:\n1. 阿莫西林胶囊 0.5g×24粒\n2. 布洛芬缓释胶囊 0.3g×12粒\n用法：阿莫西林 0.5g tid po\n布洛芬 0.3g prn po",
+    "fields": {
+      "hospital": "XX市人民医院处方笺",
+      "department": "内科",
+      "patient_name": "赵六",
+      "gender": "男",
+      "age": "50",
+      "date": "2025年6月3日",
+      "prescription_items": [
+        "阿莫西林胶囊 0.5g×24粒",
+        "布洛芬缓释胶囊 0.3g×12粒"
+      ],
+      "usage": "阿莫西林 0.5g tid po\n布洛芬 0.3g prn po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_001.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX区医院门诊处方\n姓名：张三　性别：男　年龄：30岁　日期：2025年9月13日\n科室：呼吸内科\nRp:\n1. 头孢克洛胶囊 0.25g×12粒\n2. 盐酸氨溴索片 30mg×20片\n用法：头孢 0.25g tid po\n氨溴索 30mg tid po",
+    "fields": {
+      "hospital": "XX区医院门诊处方",
+      "department": "呼吸内科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "30",
+      "date": "2025年9月13日",
+      "prescription_items": [
+        "头孢克洛胶囊 0.25g×12粒",
+        "盐酸氨溴索片 30mg×20片"
+      ],
+      "usage": "头孢 0.25g tid po\n氨溴索 30mg tid po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_002.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX医院处方笺\n姓名：陈七　性别：女　年龄：39岁　日期：2025年3月5日\n科室：消化内科\nRp:\n1. 奥美拉唑胶囊 20mg×14粒\n2. 多潘立酮片 10mg×30片\n用法：奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac",
+    "fields": {
+      "hospital": "XX医院处方笺",
+      "department": "消化内科",
+      "patient_name": "陈七",
+      "gender": "女",
+      "age": "39",
+      "date": "2025年3月5日",
+      "prescription_items": [
+        "奥美拉唑胶囊 20mg×14粒",
+        "多潘立酮片 10mg×30片"
+      ],
+      "usage": "奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_003.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "社区卫生服务中心处方\n姓名：赵六　性别：女　年龄：39岁　日期：2025年12月15日\n科室：全科\nRp:\n1. 硝苯地平控释片 30mg×7片\n2. 阿托伐他汀钙片 20mg×7片\n用法：硝苯地平 30mg qd\n阿托伐他汀 20mg qn",
+    "fields": {
+      "hospital": "社区卫生服务中心处方",
+      "department": "全科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "39",
+      "date": "2025年12月15日",
+      "prescription_items": [
+        "硝苯地平控释片 30mg×7片",
+        "阿托伐他汀钙片 20mg×7片"
+      ],
+      "usage": "硝苯地平 30mg qd\n阿托伐他汀 20mg qn"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_004.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX大学附属医院处方\n姓名：赵六　性别：男　年龄：71岁　日期：2025年10月18日\n科室：皮肤科\nRp:\n1. 氯雷他定片 10mg×6片\n2. 地奈德乳膏 15g×1支\n用法：氯雷他定 10mg qd po\n地奈德乳膏 外用 bid",
+    "fields": {
+      "hospital": "XX大学附属医院处方",
+      "department": "皮肤科",
+      "patient_name": "赵六",
+      "gender": "男",
+      "age": "71",
+      "date": "2025年10月18日",
+      "prescription_items": [
+        "氯雷他定片 10mg×6片",
+        "地奈德乳膏 15g×1支"
+      ],
+      "usage": "氯雷他定 10mg qd po\n地奈德乳膏 外用 bid"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_005.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX市人民医院处方笺\n姓名：赵六　性别：女　年龄：59岁　日期：2025年7月19日\n科室：内科\nRp:\n1. 阿莫西林胶囊 0.5g×24粒\n2. 布洛芬缓释胶囊 0.3g×12粒\n用法：阿莫西林 0.5g tid po\n布洛芬 0.3g prn po",
+    "fields": {
+      "hospital": "XX市人民医院处方笺",
+      "department": "内科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "59",
+      "date": "2025年7月19日",
+      "prescription_items": [
+        "阿莫西林胶囊 0.5g×24粒",
+        "布洛芬缓释胶囊 0.3g×12粒"
+      ],
+      "usage": "阿莫西林 0.5g tid po\n布洛芬 0.3g prn po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_006.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX区医院门诊处方\n姓名：王五　性别：男　年龄：39岁　日期：2025年8月1日\n科室：呼吸内科\nRp:\n1. 头孢克洛胶囊 0.25g×12粒\n2. 盐酸氨溴索片 30mg×20片\n用法：头孢 0.25g tid po\n氨溴索 30mg tid po",
+    "fields": {
+      "hospital": "XX区医院门诊处方",
+      "department": "呼吸内科",
+      "patient_name": "王五",
+      "gender": "男",
+      "age": "39",
+      "date": "2025年8月1日",
+      "prescription_items": [
+        "头孢克洛胶囊 0.25g×12粒",
+        "盐酸氨溴索片 30mg×20片"
+      ],
+      "usage": "头孢 0.25g tid po\n氨溴索 30mg tid po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_007.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX医院处方笺\n姓名：张三　性别：男　年龄：44岁　日期：2025年12月23日\n科室：消化内科\nRp:\n1. 奥美拉唑胶囊 20mg×14粒\n2. 多潘立酮片 10mg×30片\n用法：奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac",
+    "fields": {
+      "hospital": "XX医院处方笺",
+      "department": "消化内科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "44",
+      "date": "2025年12月23日",
+      "prescription_items": [
+        "奥美拉唑胶囊 20mg×14粒",
+        "多潘立酮片 10mg×30片"
+      ],
+      "usage": "奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_008.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "社区卫生服务中心处方\n姓名：陈七　性别：女　年龄：46岁　日期：2025年2月23日\n科室：全科\nRp:\n1. 硝苯地平控释片 30mg×7片\n2. 阿托伐他汀钙片 20mg×7片\n用法：硝苯地平 30mg qd\n阿托伐他汀 20mg qn",
+    "fields": {
+      "hospital": "社区卫生服务中心处方",
+      "department": "全科",
+      "patient_name": "陈七",
+      "gender": "女",
+      "age": "46",
+      "date": "2025年2月23日",
+      "prescription_items": [
+        "硝苯地平控释片 30mg×7片",
+        "阿托伐他汀钙片 20mg×7片"
+      ],
+      "usage": "硝苯地平 30mg qd\n阿托伐他汀 20mg qn"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_009.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX大学附属医院处方\n姓名：李四　性别：男　年龄：56岁　日期：2025年2月24日\n科室：皮肤科\nRp:\n1. 氯雷他定片 10mg×6片\n2. 地奈德乳膏 15g×1支\n用法：氯雷他定 10mg qd po\n地奈德乳膏 外用 bid",
+    "fields": {
+      "hospital": "XX大学附属医院处方",
+      "department": "皮肤科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "56",
+      "date": "2025年2月24日",
+      "prescription_items": [
+        "氯雷他定片 10mg×6片",
+        "地奈德乳膏 15g×1支"
+      ],
+      "usage": "氯雷他定 10mg qd po\n地奈德乳膏 外用 bid"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_010.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX市人民医院处方笺\n姓名：刘八　性别：男　年龄：59岁　日期：2025年2月14日\n科室：内科\nRp:\n1. 阿莫西林胶囊 0.5g×24粒\n2. 布洛芬缓释胶囊 0.3g×12粒\n用法：阿莫西林 0.5g tid po\n布洛芬 0.3g prn po",
+    "fields": {
+      "hospital": "XX市人民医院处方笺",
+      "department": "内科",
+      "patient_name": "刘八",
+      "gender": "男",
+      "age": "59",
+      "date": "2025年2月14日",
+      "prescription_items": [
+        "阿莫西林胶囊 0.5g×24粒",
+        "布洛芬缓释胶囊 0.3g×12粒"
+      ],
+      "usage": "阿莫西林 0.5g tid po\n布洛芬 0.3g prn po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_011.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX区医院门诊处方\n姓名：王五　性别：女　年龄：26岁　日期：2025年7月6日\n科室：呼吸内科\nRp:\n1. 头孢克洛胶囊 0.25g×12粒\n2. 盐酸氨溴索片 30mg×20片\n用法：头孢 0.25g tid po\n氨溴索 30mg tid po",
+    "fields": {
+      "hospital": "XX区医院门诊处方",
+      "department": "呼吸内科",
+      "patient_name": "王五",
+      "gender": "女",
+      "age": "26",
+      "date": "2025年7月6日",
+      "prescription_items": [
+        "头孢克洛胶囊 0.25g×12粒",
+        "盐酸氨溴索片 30mg×20片"
+      ],
+      "usage": "头孢 0.25g tid po\n氨溴索 30mg tid po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_012.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX医院处方笺\n姓名：王五　性别：男　年龄：34岁　日期：2025年7月7日\n科室：消化内科\nRp:\n1. 奥美拉唑胶囊 20mg×14粒\n2. 多潘立酮片 10mg×30片\n用法：奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac",
+    "fields": {
+      "hospital": "XX医院处方笺",
+      "department": "消化内科",
+      "patient_name": "王五",
+      "gender": "男",
+      "age": "34",
+      "date": "2025年7月7日",
+      "prescription_items": [
+        "奥美拉唑胶囊 20mg×14粒",
+        "多潘立酮片 10mg×30片"
+      ],
+      "usage": "奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_013.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "社区卫生服务中心处方\n姓名：赵六　性别：女　年龄：69岁　日期：2025年12月25日\n科室：全科\nRp:\n1. 硝苯地平控释片 30mg×7片\n2. 阿托伐他汀钙片 20mg×7片\n用法：硝苯地平 30mg qd\n阿托伐他汀 20mg qn",
+    "fields": {
+      "hospital": "社区卫生服务中心处方",
+      "department": "全科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "69",
+      "date": "2025年12月25日",
+      "prescription_items": [
+        "硝苯地平控释片 30mg×7片",
+        "阿托伐他汀钙片 20mg×7片"
+      ],
+      "usage": "硝苯地平 30mg qd\n阿托伐他汀 20mg qn"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_014.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX大学附属医院处方\n姓名：陈七　性别：男　年龄：40岁　日期：2025年5月2日\n科室：皮肤科\nRp:\n1. 氯雷他定片 10mg×6片\n2. 地奈德乳膏 15g×1支\n用法：氯雷他定 10mg qd po\n地奈德乳膏 外用 bid",
+    "fields": {
+      "hospital": "XX大学附属医院处方",
+      "department": "皮肤科",
+      "patient_name": "陈七",
+      "gender": "男",
+      "age": "40",
+      "date": "2025年5月2日",
+      "prescription_items": [
+        "氯雷他定片 10mg×6片",
+        "地奈德乳膏 15g×1支"
+      ],
+      "usage": "氯雷他定 10mg qd po\n地奈德乳膏 外用 bid"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_015.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX市人民医院处方笺\n姓名：张三　性别：女　年龄：56岁　日期：2025年9月23日\n科室：内科\nRp:\n1. 阿莫西林胶囊 0.5g×24粒\n2. 布洛芬缓释胶囊 0.3g×12粒\n用法：阿莫西林 0.5g tid po\n布洛芬 0.3g prn po",
+    "fields": {
+      "hospital": "XX市人民医院处方笺",
+      "department": "内科",
+      "patient_name": "张三",
+      "gender": "女",
+      "age": "56",
+      "date": "2025年9月23日",
+      "prescription_items": [
+        "阿莫西林胶囊 0.5g×24粒",
+        "布洛芬缓释胶囊 0.3g×12粒"
+      ],
+      "usage": "阿莫西林 0.5g tid po\n布洛芬 0.3g prn po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_016.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX区医院门诊处方\n姓名：王五　性别：女　年龄：59岁　日期：2025年6月24日\n科室：呼吸内科\nRp:\n1. 头孢克洛胶囊 0.25g×12粒\n2. 盐酸氨溴索片 30mg×20片\n用法：头孢 0.25g tid po\n氨溴索 30mg tid po",
+    "fields": {
+      "hospital": "XX区医院门诊处方",
+      "department": "呼吸内科",
+      "patient_name": "王五",
+      "gender": "女",
+      "age": "59",
+      "date": "2025年6月24日",
+      "prescription_items": [
+        "头孢克洛胶囊 0.25g×12粒",
+        "盐酸氨溴索片 30mg×20片"
+      ],
+      "usage": "头孢 0.25g tid po\n氨溴索 30mg tid po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_017.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX医院处方笺\n姓名：赵六　性别：女　年龄：37岁　日期：2025年2月12日\n科室：消化内科\nRp:\n1. 奥美拉唑胶囊 20mg×14粒\n2. 多潘立酮片 10mg×30片\n用法：奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac",
+    "fields": {
+      "hospital": "XX医院处方笺",
+      "department": "消化内科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "37",
+      "date": "2025年2月12日",
+      "prescription_items": [
+        "奥美拉唑胶囊 20mg×14粒",
+        "多潘立酮片 10mg×30片"
+      ],
+      "usage": "奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_018.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "社区卫生服务中心处方\n姓名：赵六　性别：女　年龄：70岁　日期：2025年2月22日\n科室：全科\nRp:\n1. 硝苯地平控释片 30mg×7片\n2. 阿托伐他汀钙片 20mg×7片\n用法：硝苯地平 30mg qd\n阿托伐他汀 20mg qn",
+    "fields": {
+      "hospital": "社区卫生服务中心处方",
+      "department": "全科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "70",
+      "date": "2025年2月22日",
+      "prescription_items": [
+        "硝苯地平控释片 30mg×7片",
+        "阿托伐他汀钙片 20mg×7片"
+      ],
+      "usage": "硝苯地平 30mg qd\n阿托伐他汀 20mg qn"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_019.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX大学附属医院处方\n姓名：张三　性别：女　年龄：38岁　日期：2025年2月25日\n科室：皮肤科\nRp:\n1. 氯雷他定片 10mg×6片\n2. 地奈德乳膏 15g×1支\n用法：氯雷他定 10mg qd po\n地奈德乳膏 外用 bid",
+    "fields": {
+      "hospital": "XX大学附属医院处方",
+      "department": "皮肤科",
+      "patient_name": "张三",
+      "gender": "女",
+      "age": "38",
+      "date": "2025年2月25日",
+      "prescription_items": [
+        "氯雷他定片 10mg×6片",
+        "地奈德乳膏 15g×1支"
+      ],
+      "usage": "氯雷他定 10mg qd po\n地奈德乳膏 外用 bid"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_020.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX市人民医院处方笺\n姓名：张三　性别：男　年龄：54岁　日期：2025年7月19日\n科室：内科\nRp:\n1. 阿莫西林胶囊 0.5g×24粒\n2. 布洛芬缓释胶囊 0.3g×12粒\n用法：阿莫西林 0.5g tid po\n布洛芬 0.3g prn po",
+    "fields": {
+      "hospital": "XX市人民医院处方笺",
+      "department": "内科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "54",
+      "date": "2025年7月19日",
+      "prescription_items": [
+        "阿莫西林胶囊 0.5g×24粒",
+        "布洛芬缓释胶囊 0.3g×12粒"
+      ],
+      "usage": "阿莫西林 0.5g tid po\n布洛芬 0.3g prn po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_021.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX区医院门诊处方\n姓名：陈七　性别：男　年龄：61岁　日期：2025年4月9日\n科室：呼吸内科\nRp:\n1. 头孢克洛胶囊 0.25g×12粒\n2. 盐酸氨溴索片 30mg×20片\n用法：头孢 0.25g tid po\n氨溴索 30mg tid po",
+    "fields": {
+      "hospital": "XX区医院门诊处方",
+      "department": "呼吸内科",
+      "patient_name": "陈七",
+      "gender": "男",
+      "age": "61",
+      "date": "2025年4月9日",
+      "prescription_items": [
+        "头孢克洛胶囊 0.25g×12粒",
+        "盐酸氨溴索片 30mg×20片"
+      ],
+      "usage": "头孢 0.25g tid po\n氨溴索 30mg tid po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_022.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX医院处方笺\n姓名：李四　性别：女　年龄：63岁　日期：2025年6月3日\n科室：消化内科\nRp:\n1. 奥美拉唑胶囊 20mg×14粒\n2. 多潘立酮片 10mg×30片\n用法：奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac",
+    "fields": {
+      "hospital": "XX医院处方笺",
+      "department": "消化内科",
+      "patient_name": "李四",
+      "gender": "女",
+      "age": "63",
+      "date": "2025年6月3日",
+      "prescription_items": [
+        "奥美拉唑胶囊 20mg×14粒",
+        "多潘立酮片 10mg×30片"
+      ],
+      "usage": "奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_023.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "社区卫生服务中心处方\n姓名：赵六　性别：女　年龄：55岁　日期：2025年3月14日\n科室：全科\nRp:\n1. 硝苯地平控释片 30mg×7片\n2. 阿托伐他汀钙片 20mg×7片\n用法：硝苯地平 30mg qd\n阿托伐他汀 20mg qn",
+    "fields": {
+      "hospital": "社区卫生服务中心处方",
+      "department": "全科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "55",
+      "date": "2025年3月14日",
+      "prescription_items": [
+        "硝苯地平控释片 30mg×7片",
+        "阿托伐他汀钙片 20mg×7片"
+      ],
+      "usage": "硝苯地平 30mg qd\n阿托伐他汀 20mg qn"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_024.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX大学附属医院处方\n姓名：张三　性别：女　年龄：49岁　日期：2025年6月27日\n科室：皮肤科\nRp:\n1. 氯雷他定片 10mg×6片\n2. 地奈德乳膏 15g×1支\n用法：氯雷他定 10mg qd po\n地奈德乳膏 外用 bid",
+    "fields": {
+      "hospital": "XX大学附属医院处方",
+      "department": "皮肤科",
+      "patient_name": "张三",
+      "gender": "女",
+      "age": "49",
+      "date": "2025年6月27日",
+      "prescription_items": [
+        "氯雷他定片 10mg×6片",
+        "地奈德乳膏 15g×1支"
+      ],
+      "usage": "氯雷他定 10mg qd po\n地奈德乳膏 外用 bid"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_025.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX市人民医院处方笺\n姓名：李四　性别：男　年龄：27岁　日期：2025年4月12日\n科室：内科\nRp:\n1. 阿莫西林胶囊 0.5g×24粒\n2. 布洛芬缓释胶囊 0.3g×12粒\n用法：阿莫西林 0.5g tid po\n布洛芬 0.3g prn po",
+    "fields": {
+      "hospital": "XX市人民医院处方笺",
+      "department": "内科",
+      "patient_name": "李四",
+      "gender": "男",
+      "age": "27",
+      "date": "2025年4月12日",
+      "prescription_items": [
+        "阿莫西林胶囊 0.5g×24粒",
+        "布洛芬缓释胶囊 0.3g×12粒"
+      ],
+      "usage": "阿莫西林 0.5g tid po\n布洛芬 0.3g prn po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_026.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX区医院门诊处方\n姓名：张三　性别：女　年龄：42岁　日期：2025年7月23日\n科室：呼吸内科\nRp:\n1. 头孢克洛胶囊 0.25g×12粒\n2. 盐酸氨溴索片 30mg×20片\n用法：头孢 0.25g tid po\n氨溴索 30mg tid po",
+    "fields": {
+      "hospital": "XX区医院门诊处方",
+      "department": "呼吸内科",
+      "patient_name": "张三",
+      "gender": "女",
+      "age": "42",
+      "date": "2025年7月23日",
+      "prescription_items": [
+        "头孢克洛胶囊 0.25g×12粒",
+        "盐酸氨溴索片 30mg×20片"
+      ],
+      "usage": "头孢 0.25g tid po\n氨溴索 30mg tid po"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_027.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX医院处方笺\n姓名：张三　性别：男　年龄：30岁　日期：2025年9月27日\n科室：消化内科\nRp:\n1. 奥美拉唑胶囊 20mg×14粒\n2. 多潘立酮片 10mg×30片\n用法：奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac",
+    "fields": {
+      "hospital": "XX医院处方笺",
+      "department": "消化内科",
+      "patient_name": "张三",
+      "gender": "男",
+      "age": "30",
+      "date": "2025年9月27日",
+      "prescription_items": [
+        "奥美拉唑胶囊 20mg×14粒",
+        "多潘立酮片 10mg×30片"
+      ],
+      "usage": "奥美拉唑 20mg qd po\n多潘立酮 10mg tid ac"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_028.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "社区卫生服务中心处方\n姓名：赵六　性别：女　年龄：65岁　日期：2025年5月25日\n科室：全科\nRp:\n1. 硝苯地平控释片 30mg×7片\n2. 阿托伐他汀钙片 20mg×7片\n用法：硝苯地平 30mg qd\n阿托伐他汀 20mg qn",
+    "fields": {
+      "hospital": "社区卫生服务中心处方",
+      "department": "全科",
+      "patient_name": "赵六",
+      "gender": "女",
+      "age": "65",
+      "date": "2025年5月25日",
+      "prescription_items": [
+        "硝苯地平控释片 30mg×7片",
+        "阿托伐他汀钙片 20mg×7片"
+      ],
+      "usage": "硝苯地平 30mg qd\n阿托伐他汀 20mg qn"
+    },
+    "difficulty": "medium"
+  },
+  "western/we_synth_029.png": {
+    "category": "western",
+    "source": "synthetic",
+    "text_full": "XX大学附属医院处方\n姓名：陈七　性别：女　年龄：69岁　日期：2025年10月17日\n科室：皮肤科\nRp:\n1. 氯雷他定片 10mg×6片\n2. 地奈德乳膏 15g×1支\n用法：氯雷他定 10mg qd po\n地奈德乳膏 外用 bid",
+    "fields": {
+      "hospital": "XX大学附属医院处方",
+      "department": "皮肤科",
+      "patient_name": "陈七",
+      "gender": "女",
+      "age": "69",
+      "date": "2025年10月17日",
+      "prescription_items": [
+        "氯雷他定片 10mg×6片",
+        "地奈德乳膏 15g×1支"
+      ],
+      "usage": "氯雷他定 10mg qd po\n地奈德乳膏 外用 bid"
+    },
+    "difficulty": "medium"
+  },
+  "tcm/tc_0564769c.jpg": {
+    "category": "tcm",
+    "source": "web",
+    "text_full": "[待人工标注]",
+    "fields": {},
+    "difficulty": "hard",
+    "note": "Real-world image, requires manual annotation"
+  },
+  "tcm/tc_4b10dc25.jpg": {
+    "category": "tcm",
+    "source": "web",
+    "text_full": "[待人工标注]",
+    "fields": {},
+    "difficulty": "hard",
+    "note": "Real-world image, requires manual annotation"
+  },
+  "western/we_4b10dc25.jpg": {
+    "category": "western",
+    "source": "web",
+    "text_full": "[待人工标注]",
+    "fields": {},
+    "difficulty": "hard",
+    "note": "Real-world image, requires manual annotation"
+  },
+  "handwritten/ha_4b10dc25.jpg": {
+    "category": "handwritten",
+    "source": "web",
+    "text_full": "[待人工标注]",
+    "fields": {},
+    "difficulty": "hard",
+    "note": "Real-world image, requires manual annotation"
+  }
+}
