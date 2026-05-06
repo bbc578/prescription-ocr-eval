@@ -1,145 +1,123 @@
-# Chinese Medical Prescription OCR Evaluation Dataset
+# 医疗处方 OCR 评估集
 
-## 中文医疗处方 OCR 评估数据集
+## 项目简介
 
-[English](#overview) | [中文](#概述)
+本数据集是一个面向**医疗处方文字识别**场景的高质量评估集，用于评测 OCR 模型在医疗处方文档上的识别能力。
 
----
+**选题理由**：医疗处方是 OCR 领域的稀缺场景，公开 benchmark 几乎为零，但医院数字化转型有真实刚需。处方包含专业医学术语、特殊格式（Rp:）、中西医混合排版，对 OCR 模型提出独特挑战。
 
-## Overview
+## 数据集统计
 
-This is an evaluation dataset for **Chinese medical prescription OCR** (Optical Character Recognition). It contains images of both Traditional Chinese Medicine (TCM) prescriptions and Western medicine prescriptions, with ground-truth text annotations.
+| 指标 | 数值 |
+|------|------|
+| 总图片数 | 364 |
+| 已标注 | 360 |
+| 待人工标注 | 4（网络下载实拍图） |
+| 中药处方 | 132 |
+| 西药处方 | 131 |
+| 中西医结合 | 50 |
+| 手写风格 | 50（30中药+20西药） |
+| 覆盖科室 | 25+ |
+| 难度分布 | Easy: 100 / Medium: 90 / Hard: 174 |
 
-**Why this dataset?** Chinese medical prescriptions are a high-value OCR scenario with real industry demand (hospital digitization, pharmacy automation, medical record management). However, no publicly available benchmark dataset exists for this domain. Existing OCR datasets focus on general documents, receipts, or forms — none specifically target the unique challenges of medical prescriptions: specialized medical terminology, mixed printed/handwritten content, complex layout structures, and domain-specific abbreviations.
-
-## Dataset Statistics
-
-| Category | Count | Source | Difficulty |
-|----------|-------|--------|------------|
-| TCM prescriptions (中药处方) | 32 | Synthetic + Web | Medium |
-| Western medicine prescriptions (西药处方) | 31 | Synthetic + Web | Medium |
-| Handwritten prescriptions (手写处方) | 1 | Web | Hard |
-| **Total** | **64** | | |
-
-## Directory Structure
+## 目录结构
 
 ```
 prescription-ocr-eval/
-├── README.md                    # This file
+├── README.md                    # 本文件
 ├── images/
-│   ├── tcm/                     # TCM prescription images
-│   │   ├── tc_synth_000.png     # Synthetic (auto-annotated)
-│   │   ├── tc_0564769c.jpg      # Web-collected (manual annotation needed)
-│   │   └── ...
-│   ├── western/                 # Western medicine prescription images
-│   │   ├── we_synth_000.png     # Synthetic (auto-annotated)
-│   │   └── ...
-│   ├── handwritten/             # Handwritten prescriptions
-│   │   └── ...
-│   └── annotations.json         # Ground-truth annotations
+│   ├── annotations.json         # 标注文件（核心）
+│   ├── tcm/                     # 中药处方图片 (132张)
+│   ├── western/                 # 西药处方图片 (131张)
+│   ├── handwritten/             # 手写风格处方 (51张)
+│   └── mixed/                   # 中西医结合处方 (50张)
 ├── scripts/
-│   ├── download_images.py       # Image collection script
-│   └── generate_annotations.py  # Annotation generation script
+│   ├── expand_dataset.py        # 数据集生成脚本
+│   ├── generate_annotations.py  # 标注生成脚本
+│   └── download_images.py       # 网络图片下载脚本
 └── docs/
-    └── annotation_guidelines.md # Annotation standards
+    └── annotation_guide.md      # 标注规范文档
 ```
 
-## Annotation Format
+## 标注格式
 
-Each image in `annotations.json` has the following structure:
+每张图片在 `annotations.json` 中有对应条目，格式如下：
 
 ```json
 {
-  "tcm/tc_synth_000.png": {
-    "category": "tcm",
-    "source": "synthetic",
-    "text_full": "XX中医院处方笺\n姓名：张三　性别：男　年龄：45岁...",
+  "images/tcm/tc_0000.png": {
+    "category": "tcm",           // 类别: tcm/western/mixed/handwritten
+    "source": "synthetic",        // 来源: synthetic/web
+    "text_full": "XX省中医院处方笺\n姓名：张三...",  // 完整文字
     "fields": {
-      "hospital": "XX中医院处方笺",
+      "hospital": "XX省中医院处方笺",
       "department": "中医内科",
       "patient_name": "张三",
       "gender": "男",
-      "age": "45",
-      "date": "2025年3月15日",
+      "age": "41",
+      "date": "2025年11月8日",
       "prescription_items": ["黄芪 15g", "当归 10g", ...],
       "usage": "水煎服，日一剂"
     },
-    "difficulty": "medium"
+    "difficulty": "medium"        // 难度: easy/medium/hard
   }
 }
 ```
 
-### Fields Description
+## 场景覆盖
 
-- `category`: Image category (`tcm`, `western`, `handwritten`)
-- `source`: Data source (`synthetic` for generated images, `web` for real-world images)
-- `text_full`: Full text content of the prescription (ground truth for OCR evaluation)
-- `fields`: Structured key-value pairs for information extraction evaluation
-  - `hospital`: Hospital/clinic name on the prescription header
-  - `department`: Medical department
-  - `patient_name`: Patient name
-  - `gender`: Patient gender
-  - `age`: Patient age
-  - `date`: Prescription date
-  - `prescription_items`: List of prescribed medicines with dosage
-  - `usage`: Medication instructions
-- `difficulty`: Annotation difficulty level (`easy`, `medium`, `hard`)
+### 中药处方（25+ 科室）
+中医内科、针灸推拿科、中医外科、妇科、儿科、皮肤科、骨伤科、肛肠科、耳鼻喉科、眼科、肿瘤科、全科、肾病科、脾胃科、肺病科、心病科、肝病科、脑病科、风湿科、内分泌科
 
-## Evaluation Protocol
+### 西药处方（15+ 科室）
+内科、呼吸内科、消化内科、心内科、神经内科、皮肤科、骨科、妇产科、泌尿外科、眼科、耳鼻喉科、口腔科、儿科、急诊科、全科
 
-This dataset supports two evaluation modes:
+### 难度等级
+- **Easy**（100张）：白色背景，标准字体，清晰排版
+- **Medium**（90张）：轻微噪点，模拟打印质量波动
+- **Hard**（174张）：明显噪点，模拟实拍条件（纸张泛黄、字迹模糊、手写风格）
 
-### 1. Full-Text OCR Evaluation
-Compare the OCR output against `text_full` using standard metrics:
-- **Character Error Rate (CER)**: Levenshtein distance at character level
-- **Word Error Rate (WER)**: Levenshtein distance at word level
-- **Exact Match Rate**: Percentage of images with perfect OCR
+## 使用方法
 
-### 2. Structured Information Extraction Evaluation
-Compare extracted key-value pairs against `fields` using:
-- **Field-level F1**: Precision, recall, F1 for each field type
-- **Item-level accuracy**: For `prescription_items`, check if all items are correctly extracted
-
-## Challenges Specific to Medical Prescriptions
-
-1. **Specialized vocabulary**: TCM herb names (黄芪, 当归, 白术), drug names (阿莫西林, 奥美拉唑), medical abbreviations (tid, qd, po, prn)
-2. **Mixed content**: Printed headers with handwritten additions
-3. **Complex layout**: Multi-column prescription items, dosage information, usage instructions
-4. **Noise and degradation**: Real prescriptions may have stains, folds, or low-quality printing
-5. **Similar characters**: Many Chinese medicine names share similar radicals (e.g., 芪/芪, 术/木)
-
-## Usage
-
+### 加载数据
 ```python
 import json
 
 with open("images/annotations.json", "r", encoding="utf-8") as f:
     annotations = json.load(f)
 
-for image_path, meta in annotations.items():
-    print(f"Image: {image_path}")
-    print(f"  Category: {meta['category']}")
-    print(f"  Ground truth: {meta['text_full'][:100]}...")
+# 遍历所有标注
+for image_path, info in annotations.items():
+    print(f"{image_path}: {info['category']} ({info['difficulty']})")
 ```
 
-## License
+### 评估 OCR 模型
+```python
+from difflib import SequenceMatcher
 
-This dataset is released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- Synthetic images: Generated programmatically, free to use
-- Web-collected images: Sourced from publicly available references, used for research purposes only
+def char_accuracy(pred, gt):
+    return SequenceMatcher(None, pred, gt).ratio()
 
-## Citation
-
-If you use this dataset, please cite:
-```
-@dataset{prescription_ocr_eval_2026,
-  title={Chinese Medical Prescription OCR Evaluation Dataset},
-  author={Yihao Tang},
-  year={2026},
-  url={https://github.com/bbc578/prescription-ocr-eval}
-}
+# 对每张图片计算字符级准确率
+for image_path, info in annotations.items():
+    gt_text = info["text_full"]
+    # pred_text = your_ocr_model.predict(image_path)
+    # accuracy = char_accuracy(pred_text, gt_text)
 ```
 
-## Contact
+## 数据特点
 
-For questions or contributions, please open an issue on GitHub or contact tangyh@mail2.sysu.edu.cn.
+1. **稀缺场景**：医疗处方 OCR 公开 benchmark 几乎为零
+2. **专业术语**：包含中药名（黄芪、当归）、西药名（阿莫西林、奥美拉唑）、医学缩写（tid、po、qd）
+3. **结构化格式**：医院名、患者信息、Rp: 标记、药品列表、用法说明
+4. **中西医覆盖**：中药处方、西药处方、中西医结合处方
+5. **多难度梯度**：从清晰打印到模拟手写，覆盖不同真实场景
+6. **结构化标注**：除全文外，还提供字段级标注（医院、科室、药品等）
+
+## 致谢
+
+本评估集为 PaddleOCR 全球衍生模型挑战赛（第十届飞桨黑客马拉松）参赛作品。
+
+## 许可证
+
+本数据集仅供学术研究和竞赛使用，不得用于商业用途。
